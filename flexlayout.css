@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+   
+    background-color:red;
+    height:100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+   
+}
+header{
+    background-color: chartreuse;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    
+    
+    
+}
+.logo{
+    background-color: darkgray;
+    height: 100%;
+    width:15%;
+}
+.header{
+    background-color: firebrick;
+    height: 100%;
+    width:85%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu{
+    background-color: cornflowerblue;
+    height: 50%;
+    width: 100%;
+    
+}
+.header1{
+    background-color: coral;
+    height: 50%;
+    width: 100%;
+}
+.content{
+    background-color: lightpink;
+    height: 75vh;
+    width: 100%;
+    display: flex;
+}
+article{
+    background-color: lime;
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+.box1{
+    background-color: lightgoldenrodyellow;
+    height:100%;
+    width: 50%;
+}
+.box2{
+    background-color: lime;
+    height:100%;
+    width: 50%;
+}
+
+
+
+aside{
+    background-color: lightblue;
+    height: 100%;
+    width: 50%;
+}
+.upper{
+    background-color: lightpink;
+    height: 50%;
+    width: 100%;
+}
+.lower{
+    background-color: lightskyblue;
+    height: 50%;
+    width: 100%;
+}
+
+
+
+footer{
+    background-color: rgba(105, 19, 19, 0.644);
+    height: 10vh;
+    width: 100%;
+    
+}
