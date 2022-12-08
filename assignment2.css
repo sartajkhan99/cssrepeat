@@ -1,4 +1,101 @@
-h1{
-    color: blue;
+.main{
+    height: 700px;
+    width: 650px;
+    background-color:brown;
+    position:absolute;
+    border-radius: 30px;
+    margin-left:400px;
+}
+.head{
+    height: 50px;
+    border-bottom: 5px solid white;
+    width: 100%;
+}
+.content{
+    height: 600px;
+    background-color:yellow;
+    border-bottom: 5px solid white;
+    width: 100%
+}
+
+.box1{
+    position: relative;
+    top: 25px;
+    left: 10px;
+    background-image: url(images/1.jpeg);
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    float: left;
+}
+.box2{
+    position: relative;
+    top: 25px;
+    left: 20px;
+    background-image: url(images/2.jpeg);
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat
+}
+.box3{
+    height: 549px;
+    width: 262px;
+    position: relative;
+    top: 25px;
+    right: 10px;
+    background-image: url(images/5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+}
+.box4{
+    background-image: url(images/4.jpeg);
+    position: relative;
+    top: 35px;
+    left: 10px;
+    height: 175px;
+    width: 175px;
+    background-size: cover;
+    float: left;
+    background-repeat: no-repeat;
+}
+.box5{
+    position: relative;
+    top: 35px;
+    left: 20px;
+    background-image: url(images/6.jpeg);
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.box6{
+    position: relative;
+    top: 45px;
+    left: 10px;
+    background-image: url(images/7.jpeg);
+    background-size: cover;
+    height: 175px;
+    width: 175px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.box7{
+    position: relative;
+    top: 45px;
+    left: 20px;
+    background-image: url(images/8.jpeg);
+    height: 175px;
+    width: 175px;
+    float: left;
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 50px;
+    border-bottom: 5px solid white;
+    width: 100%;
     
 }
