@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main-container{
+   border: 2px,solid,gainsboro;
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+aside{
+    background-color:lightsteelblue;
+    flex-grow: 2;
+    flex-basis: 150px;
+    
+    
+    
+}
+.maincontent{
+    background-color: beige;
+    flex-grow: 8;
+    flex-basis: 800px;
+    padding: 5px;
+    border:2px solid gray;
+    
+
+    
+}
+.content{
+  display: flex;
+  flex-direction: column;
+ 
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+
+  
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+menu{
+    display: flex;
+    justify-content: space-between; 
+}
+.box1 li{
+    border-style: solid;
+    border-top: 0ch;
+}
+.box1{
+    display: flex;
+
+}
+.box2{
+    display: flex;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+    border-style:solid;
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+}
+article{
+    
+    display: flex;
+    
+}
+.para{
+  
+    
+    flex-grow: 3;
+    
+}
+.photo{
+    flex-grow: 2;
+    background-color: lemonchiffon;
+    text-align: center;
+
+    
+}
+img{
+    padding: 10px;
+    width: 300px;
+    height: 400px;
+    
+
+}
+@media all and (max-width:400px){
+    aside{
+        background-color:darkred;
+        display: flex;
+        align-items: center;
+        margin-left: 50px;
+        
+        
+        
+    }
+    aside li a{
+        text-decoration: none;
+        color: bisque;
+    }
+    .login{
+         background-color:darkblue;
+         justify-content: center;
+    }
+    .login li{
+        color: white;
+    }
+    menu{
+        background-color: darksalmon;
+
+    }
+    .box2 input{
+        margin:2px;
+        height:30px;
+        margin-top:7px;
+    }
+    .box1{
+        background-color: chartreuse;
+        
+    }
+    article{
+        background-color:dimgray
+    }
+    .para p{
+        font-style: italic;
+        font-weight: bold;
+    }
+    article{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .para{
+        order: 2;
+    }
+    .photo{
+        order: 1;
+    }
+
+    
+}
+@media all and (min-width:400px){
+    
+    
+    aside{
+        background-color:darkgrey;
+        display: flex;
+        justify-content: center;
+        
+        
+        
+        
+        
+        
+    }
+    aside li a{
+        text-decoration: none;
+        color:black;
+        font-size: larger;
+        font-weight: bolder;
+        
+        
+    }
+    .login{
+        background-color:darkkhaki;
+        justify-content: center;
+        
+
+    }
+    .login li{
+        color: aliceblue;
+        margin: 5px;
+        background-color: black;
+
+    }
+    menu{
+        background-color: cornflowerblue;
+        
+
+    }
+    
+    .box1{
+        background-color:chocolate;
+        
+    }
+    .box2 li{
+        color:black;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .box2 input{
+        height:30px;
+        width:400px;
+        margin-top: 5px;
+        margin-right: 2px;
+    }
+    article{
+        background-color: cornflowerblue;
+    }
+    .para p{
+        
+        
+        font-family: fantasy;
+    }
+    .para{
+        order: 2;
+
+    }
+    .photo{
+        order: 1;
+    }
+}
+@media all and (min-width:800px){
+    aside{
+        background-color:grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+        
+        
+        
+        
+    }
+    aside li a{
+        text-decoration: none;
+        color:black;
+        font-size: larger;
+        font-weight: bolder;
+        
+        
+    }
+    .login{
+        background-color:white;
+        justify-content: center;
+        
+
+    }
+    .login li{
+        color: black;
+        margin: 5px;
+        background-color: white;
+
+    }
+    menu{
+        background-color: whitesmoke;
+        
+
+    }
+    
+    .box1{
+        background-color:white;
+        
+    }
+    .box2 li{
+        color:black;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .box2 input{
+        height:30px;
+        width:400px;
+        margin-top: 5px;
+        margin-right: 2px;
+    }
+    article{
+        background-color: whitesmoke;
+    }
+    .para p{
+        
+        
+        font-family:serif;
+    }
+    .para{
+        order: 1;
+
+    }
+    .photo{
+        order: 2;
+    }
+
+
+
+}
+

@@ -12,6 +12,7 @@
 aside{
     background-color:lightsteelblue;
     flex-grow: 2;
+    flex-basis: 150px;
     
     
     
