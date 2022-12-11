@@ -114,16 +114,22 @@ img{
     }
     menu{
         background-color: darksalmon;
+        flex-direction: column;
 
     }
     .box2 input{
         margin:2px;
         height:30px;
         margin-top:7px;
+        
+    }
+    .box2{
+        order: 1;
+
     }
     .box1{
-        background-color: chartreuse;
-        
+        background-color: lightgoldenrodyellow;
+        order: 2;
     }
     article{
         background-color:dimgray
@@ -182,12 +188,15 @@ img{
     }
     menu{
         background-color: cornflowerblue;
+        display: flex;
+        flex-direction: column;
         
 
     }
     
     .box1{
         background-color:chocolate;
+        order:2;
         
     }
     .box2 li{
@@ -253,13 +262,18 @@ img{
     }
     menu{
         background-color: whitesmoke;
+        flex-direction: row;
         
 
     }
     
     .box1{
         background-color:white;
+        order: 1;
         
+    }
+    .box2{
+        order: 2;
     }
     .box2 li{
         color:black;
