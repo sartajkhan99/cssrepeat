@@ -1,0 +1,462 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main-container{
+   border: 2px,solid,dimgray;
+    display: flex;
+    padding: 2px;
+    flex-wrap: wrap;
+    
+}
+aside{
+    background-color:rgb(192, 189, 189);
+    flex-grow: 2;
+    flex-basis: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+.logo img{
+    height: 180px;
+    width: 180px;
+   
+    
+}
+.wiki h1{
+    background-color: red;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+.social {
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+    
+    
+}
+.social a{
+    font-weight: bold;
+    font-family: sans-serif;
+    
+    padding-top: 10px;
+  
+}
+
+
+.maincontent{
+    
+    flex-grow: 8;
+    flex-basis: 800px;
+    padding: 5px;
+     border:2px solid gray;
+    flex-wrap: wrap;
+    margin: 5px;
+    
+
+    
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  flex-basis: 800px;
+  flex-wrap: wrap;
+
+ 
+}
+.login{
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    flex-wrap: wrap;
+
+  
+}
+li{
+    list-style: none;
+    padding: 10px;
+}
+menu{
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+}
+.box1 li{
+    border-style: solid;
+    border-color: grey;
+    border-top: 0ch;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: 2px;
+}
+.box1{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.box2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.heading{
+    display: flex;
+    justify-content: space-between;
+     border-style:solid;
+     border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    border-color: gray;
+    margin-top:15px;
+    flex-grow:1;
+    flex-wrap: wrap;
+    
+    
+}
+.heading h1{
+    background-color:blue;
+    color: white;
+}
+.heading h2{
+    background-image: url(images/icon.png);
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+    
+}
+
+article{
+     display: flex;
+     flex-grow: 1;
+     flex-basis: 800px;
+     flex-wrap: wrap;
+    
+}
+.para{
+    line-height: 20px;
+    padding-top: 10px;  
+    flex-basis: 700px;
+    flex-grow: 4;
+    flex-wrap: wrap;
+    font-family: sans-serif;
+    
+}
+.photo{
+    flex-basis: 150px;
+    flex-grow: 2;
+    background-color:whitesmoke;
+    text-align: center;
+    flex-wrap: wrap;
+
+    
+}
+img{
+    padding: 10px;
+    width: 220px;
+    height: 380px;
+    flex-wrap: wrap;
+}
+@media all and (max-width:400px){
+aside{
+    background-color: grey;
+
+    }
+.logo img{
+    width: 100px;
+    height: 100px;
+} 
+.wiki h1{
+    background-color: gold;
+    color: black;
+}
+.social a{
+    text-align: center;
+    color:gold;
+    padding-top: 5px;
+}
+.maincontent{
+    border: none;
+
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: lightgray;
+}
+.login li{
+    
+      padding:2px;
+       text-align: center;
+       margin: 2px;
+       background-color:grey;
+       color: black;
+       font-family:Georgia;
+       color: white;
+        
+    
+}
+.login:hover li{
+    background-color: red;
+    
+}
+menu{
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    order: 2;
+    color:black;
+    margin: 5px;
+    font-weight: bold
+}
+.box1 li{
+    font-weight: bold;
+}
+.box2{
+    order: 1;
+    background-color: azure;
+    color: darkgoldenrod;
+    font-weight: bolder;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+
+}
+.box2 input{
+    border-radius: 5px 5px 5px 5px;
+    height:30px;
+    width:110px;
+}
+.heading h1{
+    background-color: gray;
+    color: gold;
+}
+.para{
+    background-color: lightgray;
+}
+.photo h3{
+    background-color: grey;
+    font-family: serif;
+
+    
+}
+}
+@media all and (min-width:401px) {
+    
+
+    aside{
+        background-color:gray;
+    
+        }
+    .logo img{
+        width: 100px;
+        height: 100px;
+    } 
+    .wiki h1{
+        background-color:red;
+        color: white;
+    }
+    .social a{
+        text-align: center;
+        color:darkblue;
+        padding-top: 5px;
+    }
+    .maincontent{
+        border: none;
+    
+    }
+    .login{
+        display: flex;
+        justify-content:center;
+        flex-grow: 1;
+        background-color: lightgray;
+        
+    }
+    .login li{
+        
+          padding:2px;
+          margin-left: 10px;
+           text-align: center;
+           font-family:Georgia;
+           font-weight: bold;
+           
+            
+        
+    }
+    .login:hover li{
+        background-color: red;
+        
+    }
+    menu{
+        display: flex;
+        background-color: lightgray;
+        flex-direction: column;
+        padding-top: 5px;
+    }
+    .box1{
+        order: 2;
+        color: red;
+        margin: 5px;
+    }
+    .box2{
+        order: 1;
+        background-color:lightgray;
+        font-weight: bolder;
+        font-family: sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    
+    
+    }
+    .box2 input{
+        border-radius: 5px 5px 5px 5px;
+        width: 400px;
+        
+    }
+    .heading h1{
+        background-color:lightgray;
+        color: red;
+    }
+    .para{
+        background-color: lightgray;
+        order: 2;
+    }
+    .photo{
+        background-color:white;
+        order: 1;
+    }
+    .photo h3{
+        background-color: gray;
+        font-family: serif;
+        font-weight: bold;
+        font-size: larger;
+    }
+}
+@media all and (min-width:950px) {
+    
+    aside{
+        background-color:gray;
+    
+        }
+    .logo img{
+        padding-top: 50px;
+        width: 200px;
+        height: 200px;
+    } 
+    .wiki h1{
+        background-color:blue;
+        color: white;
+    }
+    .social a{
+        
+        color:darkblue;
+        padding-top: 5px;
+    }
+    .maincontent{
+        border: none;
+    
+    }
+    .login{
+        display: flex;
+        justify-content:flex-end;
+        flex-grow: 1;
+        background-color:white;
+        
+    }
+    .login li{
+        
+          padding:2px;
+          margin-left: 10px;
+           font-family:Georgia;
+           font-weight: bold;
+           
+            
+        
+    }
+    .login:hover li{
+        background-color: blue;
+    }
+        
+    
+    menu{
+        display: flex;
+        flex-direction: row;
+        padding-top: 5px;
+        background-color: white
+    }
+    .box1{
+        order: 1;
+        color: black;
+        margin: 5px;
+    }
+    .box2{
+        order:2 ;
+        background-color:white;
+        font-weight: bolder;
+        font-family: sans-serif;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    
+    
+    }
+    .box2 input{
+        border-radius: 5px 5px 5px 5px;
+        width: auto;
+        height:30px;
+        
+    }
+    .heading h1{
+        background-color:blue;
+        color:white;
+    }
+    .para{
+        background-color: white;
+        order: 1;
+    }
+    .photo{
+        background-color:white;
+        order: 2;
+    }
+    .photo h3{
+        background-color: gray;
+        font-family: serif;
+        font-weight: bold;
+        font-size: larger;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
