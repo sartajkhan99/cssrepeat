@@ -95,8 +95,8 @@ img{
     aside{
         background-color:darkred;
         display: flex;
-        align-items: center;
-        margin-left: 50px;
+        justify-content: center;
+
         
         
         
@@ -104,6 +104,7 @@ img{
     aside li a{
         text-decoration: none;
         color: bisque;
+        
     }
     .login{
          background-color:darkblue;
@@ -132,7 +133,7 @@ img{
         order: 2;
     }
     article{
-        background-color:dimgray
+        background-color:dimgray;
     }
     .para p{
         font-style: italic;
@@ -144,21 +145,22 @@ img{
 
     }
     .para{
-        order: 2;
+        order: 1;
     }
     .photo{
-        order: 1;
+        order: 2;
     }
 
     
 }
-@media all and (min-width:400px){
+@media all and (min-width:401px){
     
     
     aside{
         background-color:darkgrey;
         display: flex;
         justify-content: center;
+        flex-grow: 1;
         
         
         
