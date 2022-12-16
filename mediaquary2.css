@@ -36,6 +36,8 @@ aside{
     color: white;
     font-size: 40px;
     text-align: center;
+    margin: 10px;
+    
 }
 .social {
      display: flex;
@@ -265,6 +267,7 @@ menu{
     .wiki h1{
         background-color:red;
         color: white;
+        
     }
     .social a{
         text-align: center;
